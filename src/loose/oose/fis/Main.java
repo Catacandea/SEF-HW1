@@ -37,6 +37,7 @@ public class Main {
         ProcesorCompus pc2 = new ProcesorCompus();
         pc2.adaugaProcesor(pc1);
         pc2.adaugaProcesor(c3);
+        for(int i = 0; i < 10; i++)
         System.out.println("Main modified");
         System.out.println(pc2.proceseaza(documente));
     }
